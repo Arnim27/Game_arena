@@ -54,7 +54,7 @@ def snake(blockSize,snakelist):
 			pygame.draw.circle(screen,(0,0,0),(size[0]+10,size[1]+5),2)
 		t+=1
 	
-
+#To add X and O's
 def clicked(i,turn):
     if i==1:
         message_to_screen(turn,'red',210,175,55)
